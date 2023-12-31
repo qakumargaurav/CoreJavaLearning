@@ -13,6 +13,7 @@ public class OddEvenProgram {
 		int number = sc.nextInt();
 		// Check given number is not a zero
 		if (number != 0) {
+			// Verify the number is ODD or EVEN
 			if (number % 2 == 0) {
 				System.out.println(number + "  is even number");
 			} else {
